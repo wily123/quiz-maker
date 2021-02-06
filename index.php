@@ -1,1 +1,6 @@
+<?php
 
+echo "It Works";
+
+
+?>
