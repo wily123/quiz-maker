@@ -6,3 +6,6 @@
 * Create Quiz 
 * Run Quiz
 * Can simply be a Form 
+
+* No data base installation
+* Plug and play
