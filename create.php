@@ -191,7 +191,7 @@ function getURLbase(){
         newSub += pathArray[i]+"/";
         }
     }
-    return base_url+newSub;
+    return base_url+"/"+newSub;
 }
 
 function saveQuestion(){
