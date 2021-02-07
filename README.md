@@ -9,3 +9,6 @@
 
 * No data base installation
 * Plug and play
+
+## To visit the demo with Github Pages:
+https://wily123.github.io/quiz-maker/example.html
