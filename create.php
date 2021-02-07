@@ -1,4 +1,3 @@
-
 <?php
 
 
@@ -181,9 +180,24 @@ function SaveQuestionTempAndGo(numberNew){
 
 
 
+function getURLbase(){
+    let base_url = window.location.origin;
+    let host = window.location.host;
+    let pathArray = window.location.pathname.split('/');
+    let newSub = '';
+
+    for(let i=0; i<pathArray.length-1;i++){
+        if(pathArray[i] != ""){
+        newSub += pathArray[i]+"/";
+        }
+    }
+    return base_url+newSub;
+}
+
 function saveQuestion(){
     dergo();
-    alert("https://mensa.cf/p/quiz/?f="+file);
+    let urlBase = getURLbase();
+    alert(urlBase+"?f="+file);
 }
 
 
