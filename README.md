@@ -1,4 +1,4 @@
-# quiz maker
+# quiz maker and share
 * PHP / JS Quiz 
 * Database in text files
 * Dynamic
